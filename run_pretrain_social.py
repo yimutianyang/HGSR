@@ -81,7 +81,7 @@ def generate_social_adj(traindata, num_users):
 
 
 def train(model):
-    social_graph = generate_social_adj(data.user_users, data.num_users)
+    social_graph = generate_social_adj(traindata, data.num_users)
     optimizer = RiemannianSGD(params=model.parameters(), lr=args.lr, \
                               weight_decay=args.weight_decay, momentum=args.momentum)
     tot_params = sum([np.prod(p.size()) for p in model.parameters()])
