@@ -11,3 +11,15 @@ Such that, we combine explicit heterogeneous graph learning implicit social feat
 which can effectively tackle heterogeneity and noise issues. Experiments on four datasets show the effectiveness of the proposed model, 
 including high performance, generalization of the pre-trained feature, and applicability to various sparsity users.
 
+Prerequisites
+-------------
+* Please refer requirements.txt
+
+Usage
+-----
+* python run_hgsr.py --dataset epinions --runid 3layer+random_sample --num_layers 3 --negative_sampling random --interest_weight 0.8
+* python run_hgsr.py --dataset flickr --runid 3layer+pop_sample --num_layers 3 --negative_sampling pop --interest_weight 0.9
+
+Author contact:
+--------------
+Email: yyh.hfut@gmail.com
