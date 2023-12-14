@@ -19,6 +19,7 @@ Usage
 -----
 * python run_hgsr.py --dataset epinions --runid 3layer+random_sample --num_layers 3 --negative_sampling random --interest_weight 0.8
 * python run_hgsr.py --dataset flickr --runid 3layer+pop_sample --num_layers 3 --negative_sampling pop --interest_weight 0.9
+* python run_hgsr.py --dataset ciao --runid 3layer+random_sample --num_layer 3 --negative_sampling random --interest_weight 0.8
 
 Author contact:
 --------------
