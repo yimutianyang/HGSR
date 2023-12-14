@@ -1,5 +1,6 @@
 # TKDE23-HGSR
-Implementation of our paper: Hyperbolic Graph Learning for Social Recommendation~(Accepted by TKDE)
+Implementation of our paper: Hyperbolic Graph Learning for Social Recommendation~(Accepted by TKDE).
+
 The PDF file is available at: https://le-wu.com/files/Publications/JOURNAL/TKDE23-HGSR-yang.pdf
 ![](https://github.com/yimutianyang/HGSR/blob/main/framework.jpg)
 
