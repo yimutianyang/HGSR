@@ -25,7 +25,7 @@ def parse_args():
     ###  training parameters  ###
     parser.add_argument('--log', type=str, default='True', help='write log or not?')
     parser.add_argument('--runid', type=str, default='0', help='current log id')
-    parser.add_argument('--epochs', type=int, default=600, help='maximum number of epochs to train for')
+    parser.add_argument('--epochs', type=int, default=1000, help='maximum number of epochs to train for')
     parser.add_argument('--batch_size', type=int, default=10000, help='batch size')
     parser.add_argument('--lr', type=float, default=0.001, help='learning rate')
     parser.add_argument('--weight_decay', type=float, default=0.005, help='l2 regularization strength')
