@@ -26,3 +26,14 @@ Usage
 Author contact:
 --------------
 Email: yyh.hfut@gmail.com
+
+Citation:
+--------------
+If you find this useful for your research, please kindly cite the following paper:
+@article{yang2023hyperbolic,
+  title={Hyperbolic Graph Learning for Social Recommendation},
+  author={Yang, Yonghui and Wu, Le and Zhang, Kun and Hong, Richang and Zhou, Hailin and Zhang, Zhiqiang and Zhou, Jun and Wang, Meng},
+  journal={IEEE Transactions on Knowledge and Data Engineering},
+  year={2023},
+  publisher={IEEE}
+}
