@@ -81,8 +81,8 @@ class HGSRModel(nn.Module):
         user_feature_tan = self.manifold.logmap0(user_feature_tan, self.c)
         # ####################   all embedding   ############################
         z_tangent = torch.cat([user_feature_tan, x_tangent[self.num_users:]], 0)
-        # all_emb = [torch.cat([x_tangent, z_tangent], 1)]
-        all_emb = [x_tangent]
+        all_emb = [torch.cat([x_tangent, z_tangent], 1)]
+        #all_emb = [x_tangent]
         for _ in range(self.num_layers):
             cur_emb = self.interest_weight * torch.spmm(adj_uv, all_emb[-1]) + (1-self.interest_weight) * torch.spmm(adj_uu, all_emb[-1])
             all_emb.append(cur_emb)
